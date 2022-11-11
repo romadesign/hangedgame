@@ -1,7 +1,7 @@
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.content {
+#content {
   height: 90vh;
   display: flex;
   text-align: center;
@@ -10,14 +10,33 @@ body{
 
 .content_one {
   width: 70%;
+  position: relative;
 }
 
-.content_two {
+#content_gif_happy{
+  height: 100vh;
+  display: none;
+}
+
+#content_gif_perdedor{
+  height: 100vh;
+  display: none;
+}
+
+#giff_happy{
+  width: 100%;
+}
+
+#giff_perdedor{
+  width: 100%;
+}
+
+#content_two {
   background-color: black;
   position: relative;
 }
 
-img {
+picture img {
   width: 300px;
   position: absolute;
   top: -151px;
@@ -48,3 +67,30 @@ img {
   cursor: pointer;
 }
 
+.intentar{
+  background: #3535ff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+  margin: 0 auto;
+  border: 0;
+  cursor: pointer;
+}
+
+h3{
+  width: 100%;
+}
+
+#palabra{
+  border-radius: 1rem;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 4rem;
+  font-weight: 900;
+  color: green;
+  padding: 1rem;
+  background: rgb(226, 221, 221);
+}
